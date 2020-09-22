@@ -13,7 +13,6 @@ and open the template in the editor.
         <?php
         include('Student.php'); $students = array(); foreach($students as $student)
         echo $student->toString(); 
-        ?>
         
         $first = new Student();
         $first->surname = "Doe";
@@ -28,5 +27,6 @@ and open the template in the editor.
         $second->add_grade(80);
         $second->add_grade(50);
         $students['a456'] = $second;
+        ?>
     </body>
 </html>
